@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+/* Custom Fonts */
+@font-face {
+  font-family: 'sk-modernist';
+  src: url('/fonts/Sk-Modernist-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'nautigal';
+  src: url('/fonts/TheNautigal-Regular.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@layer utilities {
+  .bg-pure-white {
+    background-color: #FFFFFF;
+  }
+
+  .bg-soft-white {
+    background-color: #F8F8F8;
+  }
+
+   .border-soft-gray {
+    border-color:#2D2D2D; /* or whatever your soft gray is */
+  }
+
+  .text-dark-gray {
+    color: #2D2D2D;
+  }
+
+  .text-medium-gray {
+    color: #6E6E6E;
+  }
+
+  .font-sk {
+    font-family: 'sk-modernist', sans-serif;
+  }
+
+  .font-nautigal {
+    font-family: 'nautigal', cursive;
+  }
+}
