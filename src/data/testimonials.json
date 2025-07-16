@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "name": "Tanishka Sharma",
+    "image": "https://i.pinimg.com/736x/c3/e9/7a/c3e97aa255c604a1123e554cc12eefdc.jpg",
+    "rating": 5,
+    "quote": "Finally, A Wallpaper That's As Kind To The Planet As It Is Beautiful. The Peel-And-Stick Held Up Perfectly In My Humid Bathroom, And Removal Was Shockingly Easy"
+  },
+  {
+    "id": "2",
+    "name": "Ravi Kumar",
+    "image": "/landingpage/ravi.jpg",
+    "rating": 5,
+    "quote": "Absolutely loved the quality and ease of application. Highly recommended!"
+  },
+    {
+    "id": "3",
+    "name": "Anikha",
+    "image": "https://i.pinimg.com/736x/c3/e9/7a/c3e97aa255c604a1123e554cc12eefdc.jpg",
+    "rating": 4,
+    "quote": "Finally, A Wallpaper That's As Kind To The Planet As It Is Beautiful. The Peel-And-Stick Held Up Perfectly In My Humid Bathroom, And Removal Was Shockingly Easy"
+  }
+]

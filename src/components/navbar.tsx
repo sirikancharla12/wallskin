@@ -34,7 +34,6 @@ export default function CustomNavbar() {
     <header className="bg-pure-white border-b border-gray-100 font-sk z-50 relative">
       <div className="max-w-7xl mx-auto px-2 sm:px-3 lg:px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo + Menu */}
           <div className="flex items-center space-x-10">
             <img
               src="/logo.png"
@@ -42,7 +41,6 @@ export default function CustomNavbar() {
               className="h-14 w-auto object-contain"
             />
 
-            {/* Dropdowns (only on md and up) */}
             <nav className="hidden md:flex items-center space-x-6 text-md font-normal text-medium-gray relative">
               {Object.entries(dropdownItems).map(([label, items]) => (
                 <div key={label} className="relative">
@@ -78,9 +76,7 @@ export default function CustomNavbar() {
             </nav>
           </div>
 
-          {/* Right Icons and Search */}
           <div className="flex items-center space-x-3">
-            {/* Search Bar and Icon */}
             <div className="flex items-center">
               <div
                 className={`transition-all duration-300 ease-in-out overflow-hidden ${
@@ -102,15 +98,12 @@ export default function CustomNavbar() {
               </button>
             </div>
 
-            {/* Divider */}
             <div className="h-6 w-px bg-gray-300 mx-1 hidden md:block" />
 
-            {/* User */}
             <button className="hidden md:block text-medium-gray hover:text-dark-gray hover:bg-soft-white p-2 rounded">
               <User className="h-5 w-5" />
             </button>
 
-            {/* Wishlist */}
             <button className="relative text-medium-gray hover:text-dark-gray hover:bg-soft-white p-2 rounded">
               <Heart className="h-5 w-5" />
               <span className="sr-only">Wishlist</span>
@@ -119,7 +112,6 @@ export default function CustomNavbar() {
               </span>
             </button>
 
-            {/* Cart */}
             <button className="relative text-medium-gray hover:text-dark-gray hover:bg-soft-white p-2 rounded">
               <ShoppingBag className="h-5 w-5" />
               <span className="sr-only">Shopping cart</span>
@@ -128,7 +120,6 @@ export default function CustomNavbar() {
               </span>
             </button>
 
-            {/* Mobile Menu Toggle */}
             <button
               className="md:hidden text-medium-gray hover:text-dark-gray hover:bg-soft-white p-2 rounded"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -139,7 +130,6 @@ export default function CustomNavbar() {
         </div>
       </div>
 
-      {/* Mobile Dropdown Menu */}
       <div
         className={`md:hidden absolute top-20 right-0 w-full bg-white shadow-lg z-40 px-6 py-4 space-y-4 transform transition-all duration-300 ease-in-out ${
           isMenuOpen

@@ -24,7 +24,7 @@ const FAQItemComponent = ({
 }) => {
   return (
     <div
-      className="border-b border-soft-gray py-6 w-full transition-all duration-300"
+      className="border-b-2 border-soft-gray py-6 w-full transition-all duration-300"
 
     >
       <div className="w-full max-w-4xl">
@@ -47,7 +47,7 @@ const FAQItemComponent = ({
 
         {/* Answer with animation */}
         <div
-          className={`overflow-hidden transition-all duration-500 ease-in-out ml-10 pl-4 border-l-2 border-gray-200 ${
+          className={`overflow-hidden transition-all duration-500 ease-in-out ml-10 pl-4 border-l-2 border-soft-gray ${
             isOpen ? "max-h-96 opacity-100 mt-6" : "max-h-0 opacity-0 mt-0"
           }`}
         >
@@ -73,12 +73,13 @@ export default function Faq() {
 
   return (
   <AnimationContainer>
-      <section className="px-2 py-20 w-full max-w-7xl mx-auto">
+      <section className=" py-20 w-full max-w-7xl mx-auto">
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4">
-        <div className="text-left">
-          <SectionHeader2 title="FAQ" />
+          <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center mb-4 ml-4">
+  <SectionHeader2 title="FAQ" />
+</div>
+
         
-        </div>
      
       </div>
 
