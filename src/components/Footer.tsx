@@ -36,7 +36,7 @@ export default function Footer() {
               </ul>
             </div>
             <div>
-              <h3 className="font-semibold mb- text-base">Our Policies</h3>
+              <h3 className="font-semibold mb-4 text-base">Our Policies</h3>
               <ul className="space-y-2 text-medium-gray">
                 <li><a href="#">Privacy Policy</a></li>
                 <li><a href="#">Refund Policy</a></li>

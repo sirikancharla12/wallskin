@@ -36,6 +36,18 @@
     color: #6E6E6E;
   }
 
+  .text-fancy-color{
+    color:#947c62
+  }
+
+   .bg-soft-gray {
+    background-color:#e0dad2;
+  }
+
+   .bg-fancy-color {
+    background-color: #947c62;
+  } 
+
   .font-sk {
     font-family: 'sk-modernist', sans-serif;
   }

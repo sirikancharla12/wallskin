@@ -31,7 +31,8 @@ export default function CustomNavbar() {
   };
 
   return (
-    <header className="bg-pure-white border-b border-gray-100 font-sk z-50 relative">
+      <header className="bg-pure-white border-b border-gray-100 font-sk z-50 fixed top-0 left-0 w-full shadow-sm">
+
       <div className="max-w-7xl mx-auto px-2 sm:px-3 lg:px-4">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center space-x-10">
