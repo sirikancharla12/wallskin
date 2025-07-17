@@ -9,7 +9,7 @@ export default function Layout(){
     return(
         <>
         <CustomNavbar/>
-           <main className="min-h-screen ">
+           <main className="mt-20">
         <Outlet />
         
         <Faq />

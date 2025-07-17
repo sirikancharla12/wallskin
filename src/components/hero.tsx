@@ -10,7 +10,7 @@ export default function HeroLandingPage() {
         w-full
         bg-cover bg-center
         flex items-start justify-start
-        px-6 py-10 sm:py-20
+        px-6 py-10 sm:py-20 
         aspect-square md:aspect-auto
         md:min-h-[calc(100vh-80px)]
         lg:items-top lg:pl-40
