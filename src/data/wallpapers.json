@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Botanical Peel-And-Stick",
+    "price": 1299,
+    "originalPrice": 1499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "category": "wallpapers",
+    "specialities": ["legacy","popular", "featured" ,"landingpage"]
+  },
+  {
+    "id": 2,
+    "title": "Moroccan Geometric",
+    "price": 2499,
+    "originalPrice": 3499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["buddha","landingpage"]
+  },
+  {
+    "id": 3,
+    "title": "Linen Texture",
+    "price": 1899,
+    "originalPrice": 2499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "wallpapers",
+    "specialities": ["illusion","popular"]
+  },
+  {
+    "id": 4,
+    "title": "Metallic Gold Brushstrokes",
+    "price": 3199,
+    "originalPrice": 4499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "wallpapers",
+    "specialities": ["glorious"]
+  }
+]

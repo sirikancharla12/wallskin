@@ -10,7 +10,7 @@ interface Testimonial {
 
 export default function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
   return (
-    <div className="relative p-6 w-full h-[320px] bg-[#fffaf5] font-sk ">
+    <div className="relative p-6 w-full h-[320px] bg-soft-pink font-sk ">
       {/* Profile + Stars */}
       <div className="flex flex-col items-start gap-2 mb-4">
         <img

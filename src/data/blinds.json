@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Solar Screen Zebra Blinds",
+    "price": 5299,
+    "originalPrice": 6499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "category": "blinds",
+    "specialities": ["popular", "featured"]
+  },
+  {
+    "id": 2,
+    "title": "Classic White Roller Blinds",
+    "price": 2499,
+    "originalPrice": 3499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "blinds",
+    "specialities": ["popular"]
+  },
+  {
+    "id": 3,
+    "title": "Blackout Vertical Blinds",
+    "price": 3799,
+    "originalPrice": 4499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "blinds",
+    "specialities": []
+  },
+  {
+    "id": 4,
+    "title": "Oak Wood Venetian Blinds",
+    "price": 4899,
+    "originalPrice": 6499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "blinds",
+    "specialities": []
+  },
+   {
+    "id": 4,
+    "title": "Oak Wood Venetian Blinds",
+    "price": 4899,
+    "originalPrice": 6499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "blinds",
+    "specialities": []
+  }
+]

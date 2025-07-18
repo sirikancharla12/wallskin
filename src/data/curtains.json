@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Linen Touch Blackout Curtains",
+    "price": 3499,
+    "originalPrice": 4499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "category": "curtains",
+    "specialities": ["popular", "featured"]
+  },
+  {
+    "id": 2,
+    "title": "Breeze White Sheer Curtains",
+    "price": 2139,
+    "originalPrice": 4499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "curtains",
+    "specialities": ["popular","featured"]
+  },
+  {
+    "id": 3,
+    "title": "Jade Chevron Pattern Drapes",
+    "price": 4899,
+    "originalPrice": 5999,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "curtains",
+    "specialities": ["popular"]
+  },
+  {
+    "id": 4,
+    "title": "Midnight Velvet Curtains",
+    "price": 5059,
+    "originalPrice": 8599,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "curtains",
+    "specialities": []
+  },
+   {
+    "id": 5,
+    "title": "Jade Chevron Pattern Drapes",
+    "price": 4899,
+    "originalPrice": 5999,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "curtains",
+    "specialities": []
+  },
+  {
+    "id": 6,
+    "title": "Midnight Velvet Curtains",
+    "price": 5059,
+    "originalPrice": 8599,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "curtains",
+    "specialities": []
+  }
+]

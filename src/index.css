@@ -25,7 +25,7 @@
   }
 
    .border-soft-gray {
-    border-color:#bbb9b9; /* or whatever your soft gray is */
+    border-color:#bbb9b9; 
   }
 
   .text-dark-gray {
@@ -44,6 +44,10 @@
     background-color:#e0dad2;
   }
 
+   .bg-soft-pink {
+    background-color:#fffaf5;
+  }
+
    .bg-fancy-color {
     background-color: #947c62;
   } 
@@ -55,4 +59,13 @@
   .font-nautigal {
     font-family: 'nautigal', cursive;
   }
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none; 
+  scrollbar-width: none; 
+}
+
 }
