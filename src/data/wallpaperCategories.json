@@ -1,0 +1,31 @@
+[ {
+    "category": "Buddha",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/buddha"
+  },
+  {
+    "category": "Glorious",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/glorious"
+  },
+  {
+    "category": "Legacy",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/legacy"
+  },
+  {
+    "category": "Illusion Art",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/illusion-art"
+  },
+  {
+    "category": "Royal Destiny",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/royal-destiny"
+  },
+  {
+    "category": "Victorian Collection",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "url": "/collections/victorian-collection"
+  }
+]

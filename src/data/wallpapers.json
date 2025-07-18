@@ -6,7 +6,7 @@
     "originalPrice": 1499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "wallpapers",
-    "specialities": ["legacy","popular", "featured" ,"landingpage"]
+    "specialities": ["legacy", "popular", "featured", "landingpage", "trending"]
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "originalPrice": 3499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["buddha","landingpage"]
+    "specialities": ["buddha", "landingpage"]
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["illusion","popular"]
+    "specialities": ["illusion", "popular", "trending"]
   },
   {
     "id": 4,
@@ -33,6 +33,60 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["glorious"]
+    "specialities": ["glorious", "trending", "bestseller"]
+  },
+  {
+    "id": 5,
+    "title": "Royal Damask Texture",
+    "price": 2799,
+    "originalPrice": 3999,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["royal", "victorian", "bestseller"]
+  },
+  {
+    "id": 6,
+    "title": "Divine Buddha Serenity",
+    "price": 1999,
+    "originalPrice": 2599,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813356/Mask_group_9_f9ixf7.png",
+    "category": "wallpapers",
+    "specialities": ["buddha", "art", "featured"]
+  },
+  {
+    "id": 7,
+    "title": "Vintage Illusion Swirls",
+    "price": 1699,
+    "originalPrice": 2199,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
+    "category": "wallpapers",
+    "specialities": ["illusion", "legacy", "bestseller", "popular"]
+  },
+  {
+    "id": 8,
+    "title": "Victorian Floral Luxury",
+    "price": 2999,
+    "originalPrice": 3699,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["victorian", "royal", "trending"]
+  },
+  {
+    "id": 9,
+    "title": "Glorious Destiny Trails",
+    "price": 2099,
+    "originalPrice": 2899,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "wallpapers",
+    "specialities": ["glorious", "destiny", "featured", "bestseller"]
+  },
+  {
+    "id": 10,
+    "title": "Abstract Art Vision",
+    "price": 1899,
+    "originalPrice": 2499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "wallpapers",
+    "specialities": ["art", "illusion", "popular"]
   }
 ]

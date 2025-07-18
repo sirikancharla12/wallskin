@@ -5,14 +5,15 @@ export default function Explore() {
   return (
     <AnimationContainer>
       <section className="mx-4 sm:mx-10 my-16 md:min-h-[calc(100vh-70px)] flex flex-col justify-start">
-        <div className="flex items-center gap-4 mb-4">
-          <SectionHeaderWithButton
-            titleMain="Explore Our"
-            titleAccent="Collections"
-            showButton={false}
-          />
-          <div className="flex-1 h-[2px] bg-soft-gray mt-4"></div>
-        </div>
+        <div className="flex items-baseline gap-4 mb-4">
+  <SectionHeaderWithButton
+    titleMain="Explore Our"
+    titleAccent="Collections"
+    showButton={false}
+  />
+  <div className="flex-1 h-[2px] bg-soft-gray"></div>
+</div>
+
 
         <div className="flex-1 flex flex-col lg:flex-row gap-3">
           <div className="flex flex-col gap-3 flex-1 h-full">
