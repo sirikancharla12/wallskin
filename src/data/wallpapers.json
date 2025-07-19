@@ -24,7 +24,7 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["illusion", "popular", "trending"]
+    "specialities": ["illusion-art", "popular", "trending"]
   },
   {
     "id": 4,
@@ -42,14 +42,14 @@
     "originalPrice": 3999,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["royal", "victorian", "bestseller"]
+    "specialities": ["royal-destiny", "buddha","victorian-collection", "bestseller"]
   },
   {
     "id": 6,
     "title": "Divine Buddha Serenity",
     "price": 1999,
     "originalPrice": 2599,
-    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813356/Mask_group_9_f9ixf7.png",
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
     "specialities": ["buddha", "art", "featured"]
   },
@@ -60,7 +60,7 @@
     "originalPrice": 2199,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
-    "specialities": ["illusion", "legacy", "bestseller", "popular"]
+    "specialities": ["illusion-art","buddha", "legacy", "bestseller", "popular"]
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "originalPrice": 3699,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["victorian", "royal", "trending"]
+    "specialities": ["victorian-collection","buddha", "royal-destiny", "trending"]
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "originalPrice": 2899,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["glorious", "destiny", "featured", "bestseller"]
+    "specialities": ["glorious","buddha", "destiny", "featured", "bestseller"]
   },
   {
     "id": 10,
@@ -87,6 +87,96 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["art", "illusion", "popular"]
+    "specialities": ["art","buddha", "illusion-art", "popular"]
+  },
+  {
+    "id": 11,
+    "title": "Tropical Botanical Luxe",
+    "price": 1299,
+    "originalPrice": 1499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
+    "category": "wallpapers",
+    "specialities": ["featured","buddha", "popular", "legacy"]
+  },
+  {
+    "id": 12,
+    "title": "Moroccan Buddha Mirage",
+    "price": 2499,
+    "originalPrice": 3499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["buddha", "landingpage", "featured"]
+  },
+  {
+    "id": 13,
+    "title": "Linen Optical Illusion",
+    "price": 1899,
+    "originalPrice": 2499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "wallpapers",
+    "specialities": ["illusion-art","buddha", "trending", "popular"]
+  },
+  {
+    "id": 14,
+    "title": "Golden Strokes of Glorious",
+    "price": 3199,
+    "originalPrice": 4499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "wallpapers",
+    "specialities": ["glorious","buddha", "bestseller", "trending"]
+  },
+  {
+    "id": 15,
+    "title": "Royal Victorian Hues",
+    "price": 2799,
+    "originalPrice": 3999,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["royal-destiny","buddha", "bestseller", "victorian-collection"]
+  },
+  {
+    "id": 16,
+    "title": "Sacred Buddha Gold",
+    "price": 1999,
+    "originalPrice": 2599,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
+    "category": "wallpapers",
+    "specialities": ["buddha", "art", "featured"]
+  },
+  {
+    "id": 17,
+    "title": "Legacy Swirl Illusion",
+    "price": 1699,
+    "originalPrice": 2199,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
+    "category": "wallpapers",
+    "specialities": ["legacy","buddha", "illusion-art", "popular"]
+  },
+  {
+    "id": 18,
+    "title": "Victorian Blossom Elite",
+    "price": 2999,
+    "originalPrice": 3699,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
+    "category": "wallpapers",
+    "specialities": ["victorian-collection","buddha", "trending", "royal-destiny"]
+  },
+  {
+    "id": 19,
+    "title": "Destiny of Glorious Buddha",
+    "price": 2099,
+    "originalPrice": 2899,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "category": "wallpapers",
+    "specialities": ["glorious", "buddha", "bestseller"]
+  },
+  {
+    "id": 20,
+    "title": "Illusionist's Abstract Art",
+    "price": 1899,
+    "originalPrice": 2499,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "category": "wallpapers",
+    "specialities": ["art","buddha", "illusion-art", "popular"]
   }
 ]

@@ -1,31 +1,38 @@
-[ {
+[
+  {
+    "index": 1,
     "category": "Buddha",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/buddha"
+    "url": "/wallpapers/buddha"
   },
   {
+    "index": 2,
     "category": "Glorious",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/glorious"
+    "url": "/wallpapers/glorious"
   },
   {
+    "index": 3,
     "category": "Legacy",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/legacy"
+    "url": "/wallpapers/legacy"
   },
   {
+    "index": 4,
     "category": "Illusion Art",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/illusion-art"
+    "url": "/wallpapers/illusion-art"
   },
   {
+    "index": 5,
     "category": "Royal Destiny",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/royal-destiny"
+    "url": "/wallpapers/royal-destiny"
   },
   {
+    "index": 6,
     "category": "Victorian Collection",
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
-    "url": "/collections/victorian-collection"
+    "url": "/wallpapers/victorian-collection"
   }
 ]
