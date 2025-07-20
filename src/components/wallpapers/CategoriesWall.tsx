@@ -33,10 +33,9 @@ export default function WallpaperCategoriesComponent() {
           titleMain="Shop by"
           titleAccent="Categories"
           buttonLabel="All Collections"
-          buttonHref="/wallpapers"
+          buttonHref="/wallpapers/all"
         />
 
-        {/* Mobile View */}
         <div className="sm:hidden mt-10">
           <DotCarousel>
             {wallpapers.map((item, idx) => (

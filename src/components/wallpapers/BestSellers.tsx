@@ -17,7 +17,7 @@ export default function BestSellers() {
           titleMain="Bestsellers Across"
           titleAccent="Collections"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/wallpapers/bestseller"
         />
 
         {/* Mobile: Carousel */}

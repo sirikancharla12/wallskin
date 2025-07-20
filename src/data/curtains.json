@@ -33,7 +33,7 @@
     "originalPrice": 8599,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "curtains",
-    "specialities": []
+    "specialities": ["featured"]
   },
    {
     "id": 5,
@@ -42,7 +42,7 @@
     "originalPrice": 5999,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "curtains",
-    "specialities": []
+    "specialities": ["trending"]
   },
   {
     "id": 6,
@@ -51,6 +51,6 @@
     "originalPrice": 8599,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "curtains",
-    "specialities": []
+    "specialities": ["bestseller"]
   }
 ]

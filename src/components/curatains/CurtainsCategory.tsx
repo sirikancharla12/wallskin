@@ -2,12 +2,12 @@
 
 import { Link, useParams, useSearchParams } from "react-router-dom"
 import { useEffect, useState, useRef } from "react"
-import wallpapersData from "../../data/wallpapers.json"
+import wallpapersData from "../../data/curtains.json"
 import Card from "../../ui/Card"
 import AnimationContainer from "../../ui/AnimationContainer"
 import { Filter, SortAsc, ChevronDown, X } from "lucide-react"
 
-export default function WallpaperByCategory() {
+export default function CurtainsCategory() {
   const { category } = useParams()
   const [searchParams, setSearchParams] = useSearchParams()
   const [currentPage, setCurrentPage] = useState(1)
@@ -43,13 +43,9 @@ export default function WallpaperByCategory() {
   }, [])
 
   const filteredWallpapers = wallpapersData.filter((item) => {
-    const matchesCategory =
-  category?.toLowerCase() === "all" ||
-  item.specialities?.some(
-    (spec) => spec.toLowerCase().replace(/\s+/g, "-") === category?.toLowerCase(),
-  )
-
-   
+    const matchesCategory = item.specialities?.some(
+      (spec) => spec.toLowerCase().replace(/\s+/g, "-") === category?.toLowerCase(),
+    )
     const matchesTag = tagFilter ? item.specialities?.includes(tagFilter) : true
     const matchesPrice = item.price >= minPrice && item.price <= maxPrice
     return matchesCategory && matchesTag && matchesPrice
@@ -132,7 +128,7 @@ export default function WallpaperByCategory() {
             <span className="text-gray-900 font-medium capitalize">{category?.replace("-", " ")} Collection</span>
           </div>
           <p className="text-sm text-gray-500 mt-1">
-            {filteredWallpapers.length} products found
+            {filteredWallpapers.length} wallpaper{filteredWallpapers.length !== 1 ? "s" : ""} found
           </p>
         </div>
 

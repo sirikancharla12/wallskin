@@ -34,7 +34,7 @@ export default function HeroWallpapers() {
               <button
                 className="px-4 py-1 border border-fancy text-fancy-color rounded-sm hover:bg-gray-100 transition-colors text-sm"
                 onClick={() =>
-                  navigate(`/collection/${getCollectionTag(landingWallpapers[1].specialities)}`)
+                  navigate(`/wallpapers/${getCollectionTag(landingWallpapers[1].specialities)}`)
                 }
               >
                 Shop Now
@@ -55,7 +55,7 @@ export default function HeroWallpapers() {
           </p>
           <button
             className="px-4 py-1.5 border border-fancy text-fancy-color font-sk w-max transition-all text-sm rounded"
-            onClick={() => navigate("/collections")}
+            onClick={() => navigate("/wallpapers")}
           >
             Discover More Collection
           </button>
@@ -78,7 +78,7 @@ export default function HeroWallpapers() {
               <button
                 className="px-4 py-1 border border-fancy text-fancy-color rounded-sm hover:bg-gray-100 transition-colors text-sm"
                 onClick={() =>
-                  navigate(`/collection/${getCollectionTag(landingWallpapers[0].specialities)}`)
+                  navigate(`/wallpapers/${getCollectionTag(landingWallpapers[0].specialities)}`)
                 }
               >
                 Shop Now
@@ -116,7 +116,7 @@ export default function HeroWallpapers() {
             </p>
             <button
               className="px-4 py-1.5 border border-fancy text-fancy-color font-sk w-max transition-all text-sm rounded"
-              onClick={() => navigate("/collections")}
+              onClick={() => navigate("/wallpapers")}
             >
               Discover More Collection
             </button>
@@ -140,7 +140,7 @@ export default function HeroWallpapers() {
                   <button
                     className="px-4 py-1 border border-fancy text-fancy-color rounded-sm hover:bg-gray-100 transition-colors text-sm"
                     onClick={() =>
-                      navigate(`/collection/${getCollectionTag(landingWallpapers[1].specialities)}`)
+                      navigate(`/wallpapers/${getCollectionTag(landingWallpapers[1].specialities)}`)
                     }
                   >
                     Shop Now
@@ -160,7 +160,7 @@ export default function HeroWallpapers() {
           <button
             className="px-4 py-1 border border-fancy text-fancy-color rounded-sm hover:bg-gray-100 transition-colors text-sm"
             onClick={() =>
-              navigate(`/collection/${getCollectionTag(landingWallpapers[0].specialities)}`)
+              navigate(`/wallpapers/${getCollectionTag(landingWallpapers[0].specialities)}`)
             }
           >
             Shop Now

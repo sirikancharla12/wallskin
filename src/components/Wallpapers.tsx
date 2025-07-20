@@ -18,7 +18,8 @@ export default function WallPapersComponent() {
           titleMain="Trending Wallpaper"
           titleAccent="Designs"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/wallpapers/trending"
+
         />
 
         {/* Mobile: Carousel */}

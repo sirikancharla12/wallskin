@@ -16,7 +16,7 @@ export default function CurtainsComponent() {
           titleMain="Luxury Curtains"
           titleAccent="For Every Room"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/curtains"
         />
     <DotCarousel>
       {topCurtains.map((curtain) => (

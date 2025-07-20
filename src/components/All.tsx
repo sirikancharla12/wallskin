@@ -2,13 +2,19 @@
 
 import { Link, useParams, useSearchParams } from "react-router-dom"
 import { useEffect, useState, useRef } from "react"
-import wallpapersData from "../../data/wallpapers.json"
-import Card from "../../ui/Card"
-import AnimationContainer from "../../ui/AnimationContainer"
+import wallpapersData from "../data/wallpapers.json"
+import curtains from "../data/curtains.json"
+import blinds from "../data/blinds.json"
+
+import Card from "../ui/Card"
+import AnimationContainer from "../ui/AnimationContainer"
 import { Filter, SortAsc, ChevronDown, X } from "lucide-react"
 
-export default function WallpaperByCategory() {
+
+export default function AllProducts() {
   const { category } = useParams()
+  const allProducts = [...wallpapersData, ...curtains, ...blinds];
+  console.log(allProducts)
   const [searchParams, setSearchParams] = useSearchParams()
   const [currentPage, setCurrentPage] = useState(1)
   const [itemsPerPage, setItemsPerPage] = useState(16)
@@ -40,20 +46,18 @@ export default function WallpaperByCategory() {
 
     document.addEventListener("mousedown", handleClickOutside)
     return () => document.removeEventListener("mousedown", handleClickOutside)
-  }, [])
+  }, [searchParams])
 
-  const filteredWallpapers = wallpapersData.filter((item) => {
+const filteredWallpapers = allProducts.filter((item) => {
     const matchesCategory =
-  category?.toLowerCase() === "all" ||
-  item.specialities?.some(
-    (spec) => spec.toLowerCase().replace(/\s+/g, "-") === category?.toLowerCase(),
-  )
+  !category || category.toLowerCase() === "all" || item.category?.toLowerCase() === category.toLowerCase();
 
-   
-    const matchesTag = tagFilter ? item.specialities?.includes(tagFilter) : true
-    const matchesPrice = item.price >= minPrice && item.price <= maxPrice
-    return matchesCategory && matchesTag && matchesPrice
-  })
+  const matchesTag = tagFilter ? item.specialities?.includes(tagFilter) : true
+  const matchesPrice = item.price >= minPrice && item.price <= maxPrice
+  return matchesCategory && matchesTag && matchesPrice
+})
+
+
 
   if (sortParam === "price-asc") {
     filteredWallpapers.sort((a, b) => a.price - b.price)
@@ -61,7 +65,7 @@ export default function WallpaperByCategory() {
     filteredWallpapers.sort((a, b) => b.price - a.price)
   } else if (sortParam === "title") {
     filteredWallpapers.sort((a, b) => a.title.localeCompare(b.title))
-  }
+  } 
 
   const totalPages = Math.ceil(filteredWallpapers.length / itemsPerPage)
   const startIndex = (currentPage - 1) * itemsPerPage
@@ -107,6 +111,10 @@ export default function WallpaperByCategory() {
     return filters.length > 0 ? filters.join(", ") : "All Filters"
   }
 
+
+
+
+
   return (
     <section className="mx-4 sm:mx-10 my-16">
       {/* Header + Breadcrumb */}
@@ -114,12 +122,15 @@ export default function WallpaperByCategory() {
         <div className="mb-6 lg:mb-0 mt-10">
             <div className="flex items-center gap-4 mb-3">
                   <Link
-    to="/wallpapers"
+     to="/"
     className="text-2xl  hover:bg-soft-pink text-gray-800 font-medium px-3 py-1.5 rounded-md transition"
   >
   &lt;
   </Link>
-  <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">Wallpapers</h1>
+  <h1 className="text-2xl lg:text-3xl font-bold text-gray-900 capitalize">
+ All Products
+</h1>
+
 
 </div>
 
@@ -127,12 +138,13 @@ export default function WallpaperByCategory() {
           <div className="text-sm text-gray-600 mt-2 flex items-center">
             <span>Home</span>
             <span className="mx-2">/</span>
-            <span>Wallpapers</span>
-            <span className="mx-2">/</span>
-            <span className="text-gray-900 font-medium capitalize">{category?.replace("-", " ")} Collection</span>
+            <span className="capitalize">All</span>
+
+
+
           </div>
           <p className="text-sm text-gray-500 mt-1">
-            {filteredWallpapers.length} products found
+            {filteredWallpapers.length} products  found
           </p>
         </div>
 
@@ -311,14 +323,14 @@ export default function WallpaperByCategory() {
             {groupedItems.map((group, idx) => (
               <AnimationContainer key={idx}>
                 <div className="flex flex-wrap gap-4 justify-start">
-                  {group.map((wallpaper) => (
+                  {group.map((item) => (
                     <Card
-                      key={wallpaper.id}
-                      title={wallpaper.title}
-                      price={wallpaper.price}
-                      originalPrice={wallpaper.originalPrice}
-                      image={wallpaper.image}
-                      category={wallpaper.category}
+                      key={item.id}
+                      title={item.title}
+                      price={item.price}
+                      originalPrice={item.originalPrice}
+                      image={item.image}
+                      category={item.category}
                     />
                   ))}
                 </div>

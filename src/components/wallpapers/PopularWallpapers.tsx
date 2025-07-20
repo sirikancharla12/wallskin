@@ -5,7 +5,6 @@ import SectionHeaderWithButton from "../../ui/SectionHeader";
 import Wallpapers from "../../data/wallpapers.json";
 
 export default function PopularWallpapers() {
-  // Filter wallpapers that include 'trending' in their specialities
   const trendingWallpapers = Wallpapers.filter(
     (item) => item.specialities?.includes("popular")
   ).slice(0, 4);
@@ -16,7 +15,7 @@ export default function PopularWallpapers() {
         <SectionHeaderWithButton
           titleMain="Popular One's"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/wallpapers/popular"
           showAccent={false}
         />
 

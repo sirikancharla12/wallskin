@@ -8,7 +8,10 @@ export default function Wallpapers(){
     return (
         <>
         <HeroWallpaper/>
-        <ShopByCategories/>
+        <div id="shopbycategories">
+  <ShopByCategories />
+</div>
+
         <TrendingWallpapers/>
         <BestSellers/>
         <PopularWallpapers/>

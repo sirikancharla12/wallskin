@@ -16,7 +16,7 @@ export default function BlindsComponent() {
           titleMain="Precision Blinds For"
           titleAccent="Light & Privacy"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/blinds"
         />
 
         {/* Mobile: Dot Carousel with 4 items */}

@@ -10,15 +10,15 @@ import Wallpapers from "../data/wallpapers.json";
 
 export default function PopularChoices() {
   const popularBlinds = Blinds.filter(item =>
-    item.specialities?.includes("featured")
+    item.specialities?.includes("popular")
   );
 
   const popularCurtains = Curtains.filter(item =>
-    item.specialities?.includes("featured")
+    item.specialities?.includes("popular")
   );
 
   const popularWallpapers = Wallpapers.filter(item =>
-    item.specialities?.includes("featured")
+    item.specialities?.includes("popular")
   );
 
   const popularItems = [];
@@ -44,7 +44,8 @@ export default function PopularChoices() {
         <SectionHeaderWithButton
           titleMain="Popular Choices"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/category/all?tag=popular"
+
           showAccent={false}
         />
 

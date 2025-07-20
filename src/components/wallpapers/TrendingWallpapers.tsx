@@ -5,7 +5,6 @@ import SectionHeaderWithButton from "../../ui/SectionHeader";
 import Wallpapers from "../../data/wallpapers.json";
 
 export default function TrendingWallpapers() {
-  // Filter wallpapers that include 'trending' in their specialities
   const trendingWallpapers = Wallpapers.filter(
     (item) => item.specialities?.includes("trending")
   ).slice(0, 4);
@@ -17,7 +16,7 @@ export default function TrendingWallpapers() {
           titleMain="Trending Wallpaper"
           titleAccent="Designs"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/wallpapers/trending"
         />
 
         {/* Mobile: Carousel */}

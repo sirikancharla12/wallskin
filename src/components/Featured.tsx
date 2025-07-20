@@ -46,7 +46,8 @@ export default function FeaturedForYou() {
           titleMain="Featured"
           titleAccent="For You"
           buttonLabel="All Products"
-          buttonHref="/"
+          buttonHref="/category/all?tag=featured"
+
         />
 
         {/* Mobile: Dot Carousel */}
