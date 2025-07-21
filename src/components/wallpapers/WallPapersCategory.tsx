@@ -319,6 +319,7 @@ export default function WallpaperByCategory() {
                       originalPrice={wallpaper.originalPrice}
                       image={wallpaper.image}
                       category={wallpaper.category}
+                      url={wallpaper.url}
                     />
                   ))}
                 </div>

@@ -27,6 +27,7 @@ export default function CurtainsComponent() {
           image={curtain.image}
           category={curtain.category}
           originalPrice={curtain.originalPrice}
+          url={curtain.url}
         />
       ))}
     </DotCarousel>
@@ -41,6 +42,8 @@ export default function CurtainsComponent() {
           image={curtain.image}
           category={curtain.category}
           originalPrice={curtain.originalPrice}
+          url={curtain.url}
+
         />
       ))}
     </div>

@@ -30,6 +30,7 @@ export default function BlindsComponent() {
                 image={blind.image}
                 category={blind.category}
                 originalPrice={blind.originalPrice}
+                  url={blind.url}
               />
             ))}
           </DotCarousel>
@@ -45,6 +46,7 @@ export default function BlindsComponent() {
               image={blind.image}
               category={blind.category}
               originalPrice={blind.originalPrice}
+              url={blind.url}
             />
           ))}
         </div>

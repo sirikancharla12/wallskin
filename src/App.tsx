@@ -11,6 +11,8 @@ import CurtainsCategory from "./components/curatains/CurtainsCategory";
 
 import Explore from "./components/Explore";
 import ProductDetail from "./components/ProductDetails";
+import AllProducts from "./components/All";
+import AllSpecialCategories from "./components/SpecialCategory";
 
 export default function App() {
   return (
@@ -22,19 +24,19 @@ export default function App() {
           <Route path="/blinds" element={<BlindsPage />} />
           <Route path="/curtains" element={<CurtainsPage />} />
           <Route path="/explore" element={<Explore />} />
-
+    <Route path="/category/:category" element={<AllSpecialCategories />} />
+          <Route path="/all" element={<AllProducts />} />
 
         </Route>
-        
- <Route path="/wallpapers" element={<SimpleLayout />}>
-  <Route index element={<Wallpapers />} />
-    <Route path=":category/:title" element={<ProductDetail />} />
-    {/* issue is here with the product detail it directs to wallpapers/wallpapers/title but it should route to wallpapers/buddha/title
-    the link is also from card comp which is in ui folder  */}
 
-  <Route path=":category" element={<WallpaperByCategory />} />
-  
-</Route>
+      <Route path="/" element={<SimpleLayout />}>
+      <Route path="/wallpapers/:category" element={<WallpaperByCategory />} />
+
+  <Route path="/:category/:speciality/:title" element={<ProductDetail />} />
+
+</Route>  
+
+
 
 <Route path="/curtains" element={<SimpleLayout />}>
   <Route index element={<CurtainsPage />} />

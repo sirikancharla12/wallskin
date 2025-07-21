@@ -60,6 +60,9 @@ export default function PopularChoices() {
                 image={item.image}
                 category={item.category}
                 originalPrice={item.originalPrice}
+                      url={item.url}
+                        
+                
               />
             ))}
           </DotCarousel>
@@ -75,6 +78,8 @@ export default function PopularChoices() {
               image={item.image}
               category={item.category}
               originalPrice={item.originalPrice}
+                          url={item.url}
+
             />
           ))}
         </div>

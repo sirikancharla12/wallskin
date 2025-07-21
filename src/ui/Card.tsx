@@ -1,3 +1,6 @@
+
+
+
 import { Link } from "react-router-dom";
 
 interface CardProps {
@@ -6,20 +9,19 @@ interface CardProps {
   originalPrice?: number;
   image: string;
   category: string;
-  
+  url: string;
 }
 
-export default function Card({ title, price, originalPrice, image, category }: CardProps) {
-  const isWallpaper = category.toLowerCase() === "wallpapers";
-  const encodedTitle = title.split(" ").join("-"); 
-  const encodedCategory = category.toLowerCase(); 
-
-  
-  const linkPath = `/${category}/${encodedCategory}/${encodedTitle}`;
-
-
+export default function Card({
+  title,
+  price,
+  originalPrice,
+  image,
+  category,
+  url
+}: CardProps) {
   return (
-    <Link to={linkPath} className="w-full sm:w-[calc(25%-12px)] flex flex-col">
+    <Link to={url} className="w-full sm:w-[calc(25%-12px)] flex flex-col">
       <div className="aspect-[3/4] overflow-hidden">
         <img src={image} alt={title} className="w-full h-full object-cover" />
       </div>
@@ -30,7 +32,9 @@ export default function Card({ title, price, originalPrice, image, category }: C
         <div className="flex items-center gap-2 mt-auto">
           <p className="text-2xl text-fancy-color font-sk">
             ₹{price}
-            {isWallpaper && <span className="text-2xl text-fancy-color">/roll</span>}
+            {category.toLowerCase() === "wallpapers" && (
+              <span className="text-2xl text-fancy-color">/roll</span>
+            )}
           </p>
           {originalPrice && originalPrice > price && (
             <div className="text-sm text-medium-gray line-through">₹{originalPrice}</div>

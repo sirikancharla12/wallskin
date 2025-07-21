@@ -29,6 +29,9 @@ export default function PopularWallpapers() {
               image={wallpaper.image}
               category={wallpaper.category}
               originalPrice={wallpaper.originalPrice}
+                      url={wallpaper.url}
+                         
+
             />
           ))}
         </DotCarousel>
@@ -43,6 +46,9 @@ export default function PopularWallpapers() {
               image={wallpaper.image}
               category={wallpaper.category}
               originalPrice={wallpaper.originalPrice}
+                      url={wallpaper.url}
+                        
+
             />
           ))}
         </div>

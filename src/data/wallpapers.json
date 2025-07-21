@@ -6,7 +6,8 @@
     "originalPrice": 1499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "wallpapers",
-    "specialities": ["legacy", "popular", "featured", "landingpage", "trending"]
+    "specialities": ["legacy", "popular", "featured", "landingpage", "trending"],
+    "url": "/wallpapers/legacy/botanical-peel-and-stick"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "originalPrice": 3499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["buddha", "landingpage"]
+    "specialities": ["buddha", "landingpage"],
+    "url": "/wallpapers/buddha/moroccan-geometric"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["illusion-art", "popular", "trending"]
+    "specialities": ["illusion-art", "popular", "trending"],
+    "url": "/wallpapers/illusion-art/linen-texture"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["glorious", "trending", "bestseller"]
+    "specialities": ["glorious", "trending", "bestseller"],
+    "url": "/wallpapers/glorious/metallic-gold-brushstrokes"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "originalPrice": 3999,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["royal-destiny", "buddha","victorian-collection", "bestseller"]
+    "specialities": ["royal-destiny", "buddha", "victorian-collection", "bestseller"],
+    "url": "/wallpapers/royal-destiny/royal-damask-texture"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "originalPrice": 2599,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
-    "specialities": ["buddha", "art", "featured"]
+    "specialities": ["buddha", "art", "featured"],
+    "url": "/wallpapers/buddha/divine-buddha-serenity"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "originalPrice": 2199,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
-    "specialities": ["illusion-art","buddha", "legacy", "bestseller", "popular"]
+    "specialities": ["illusion-art", "buddha", "legacy", "bestseller", "popular"],
+    "url": "/wallpapers/illusion-art/vintage-illusion-swirls"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "originalPrice": 3699,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["victorian-collection","buddha", "royal-destiny", "trending"]
+    "specialities": ["victorian-collection", "buddha", "royal-destiny", "trending"],
+    "url": "/wallpapers/victorian-collection/victorian-floral-luxury"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "originalPrice": 2899,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["glorious","buddha", "destiny", "featured", "bestseller"]
+    "specialities": ["glorious", "buddha", "destiny", "featured", "bestseller"],
+    "url": "/wallpapers/glorious/glorious-destiny-trails"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["art","buddha", "illusion-art", "popular"]
+    "specialities": ["art", "buddha", "illusion-art", "popular"],
+    "url": "/wallpapers/illusion-art/abstract-art-vision"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "originalPrice": 1499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "wallpapers",
-    "specialities": ["featured","buddha", "popular", "legacy"]
+    "specialities": ["featured", "buddha", "popular", "legacy"],
+    "url": "/wallpapers/legacy/tropical-botanical-luxe"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "originalPrice": 3499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["buddha", "landingpage", "featured"]
+    "specialities": ["buddha", "landingpage", "featured"],
+    "url": "/wallpapers/buddha/moroccan-buddha-mirage"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["illusion-art","buddha", "trending", "popular"]
+    "specialities": ["illusion-art", "buddha", "trending", "popular"],
+    "url": "/wallpapers/illusion-art/linen-optical-illusion"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["glorious","buddha", "bestseller", "trending"]
+    "specialities": ["glorious", "buddha", "bestseller", "trending"],
+    "url": "/wallpapers/glorious/golden-strokes-of-glorious"
   },
   {
     "id": 15,
@@ -132,7 +146,8 @@
     "originalPrice": 3999,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["royal-destiny","buddha", "bestseller", "victorian-collection"]
+    "specialities": ["royal-destiny", "buddha", "bestseller", "victorian-collection"],
+    "url": "/wallpapers/royal-destiny/royal-victorian-hues"
   },
   {
     "id": 16,
@@ -141,7 +156,8 @@
     "originalPrice": 2599,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
-    "specialities": ["buddha", "art", "featured"]
+    "specialities": ["buddha", "art", "featured"],
+    "url": "/wallpapers/buddha/sacred-buddha-gold"
   },
   {
     "id": 17,
@@ -150,7 +166,8 @@
     "originalPrice": 2199,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752834687/vision_lmb9zb.png",
     "category": "wallpapers",
-    "specialities": ["legacy","buddha", "illusion-art", "popular"]
+    "specialities": ["legacy", "buddha", "illusion-art", "popular"],
+    "url": "/wallpapers/legacy/legacy-swirl-illusion"
   },
   {
     "id": 18,
@@ -159,7 +176,8 @@
     "originalPrice": 3699,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "wallpapers",
-    "specialities": ["victorian-collection","buddha", "trending", "royal-destiny"]
+    "specialities": ["victorian-collection", "buddha", "trending", "royal-destiny"],
+    "url": "/wallpapers/victorian-collection/victorian-blossom-elite"
   },
   {
     "id": 19,
@@ -168,7 +186,8 @@
     "originalPrice": 2899,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "wallpapers",
-    "specialities": ["glorious", "buddha", "bestseller"]
+    "specialities": ["glorious", "buddha", "bestseller"],
+    "url": "/wallpapers/glorious/destiny-of-glorious-buddha"
   },
   {
     "id": 20,
@@ -177,6 +196,7 @@
     "originalPrice": 2499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "wallpapers",
-    "specialities": ["art","buddha", "illusion-art", "popular"]
+    "specialities": ["art", "buddha", "illusion-art", "popular"],
+    "url": "/wallpapers/illusion-art/illusionists-abstract-art"
   }
 ]

@@ -6,7 +6,8 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "curtains",
-    "specialities": ["popular", "featured"]
+    "specialities": ["blackout", "bestseller", "featured"],
+    "url": "/curtains/blackout/linen-touch-blackout-curtains"
   },
   {
     "id": 2,
@@ -15,42 +16,37 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "curtains",
-    "specialities": ["popular","featured"]
+    "specialities": ["sheer", "trending", "popular"],
+    "url": "/curtains/sheer/breeze-white-sheer-curtains"
   },
   {
     "id": 3,
-    "title": "Jade Chevron Pattern Drapes",
-    "price": 4899,
-    "originalPrice": 5999,
-    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
+    "title": "Pebble Grey Textured Curtains",
+    "price": 2999,
+    "originalPrice": 3799,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "curtains",
-    "specialities": ["popular"]
+    "specialities": ["textured", "featured", "bestseller"],
+    "url": "/curtains/textured/pebble-grey-textured-curtains"
   },
   {
     "id": 4,
-    "title": "Midnight Velvet Curtains",
-    "price": 5059,
-    "originalPrice": 8599,
-    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "title": "Elegant Beige Sheer Curtains",
+    "price": 2299,
+    "originalPrice": 2999,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "curtains",
-    "specialities": ["featured"]
-  },
-   {
-    "id": 5,
-    "title": "Jade Chevron Pattern Drapes",
-    "price": 4899,
-    "originalPrice": 5999,
-    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
-    "category": "curtains",
-    "specialities": ["trending"]
+    "specialities": ["sheer", "popular"],
+    "url": "/curtains/sheer/elegant-beige-sheer-curtains"
   },
   {
-    "id": 6,
-    "title": "Midnight Velvet Curtains",
-    "price": 5059,
-    "originalPrice": 8599,
-    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
+    "id": 5,
+    "title": "Midnight Blackout Curtains",
+    "price": 3599,
+    "originalPrice": 4299,
+    "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813141/Mask_group_1_vb4prx.png",
     "category": "curtains",
-    "specialities": ["bestseller"]
+    "specialities": ["blackout", "trending"],
+    "url": "/curtains/blackout/midnight-blackout-curtains"
   }
 ]

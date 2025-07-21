@@ -331,6 +331,8 @@ const filteredWallpapers = allProducts.filter((item) => {
                       originalPrice={item.originalPrice}
                       image={item.image}
                       category={item.category}
+                      url={item.url}
+
                     />
                   ))}
                 </div>

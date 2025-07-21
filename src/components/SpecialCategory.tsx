@@ -339,6 +339,7 @@ export default function AllSpecialCategories() {
                       originalPrice={wallpaper.originalPrice}
                       image={wallpaper.image}
                       category={wallpaper.category}
+                      url={wallpaper.url}
                     />
                   ))}
                 </div>

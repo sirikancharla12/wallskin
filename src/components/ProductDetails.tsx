@@ -24,9 +24,12 @@ export default function ProductDetail() {
 
   const decodedTitle = decodeURIComponent(title);
 
-  const product = dataMap[category].find(
-    (item) => item.title.toLowerCase() === decodedTitle.toLowerCase()
-  );
+ const product = dataMap[category].find((item) => {
+  const urlSegments = item.url?.split("/") || [];
+  const itemSlug = urlSegments[urlSegments.length - 1];
+  return itemSlug === decodedTitle;
+});
+
 
   if (!product) {
     return (

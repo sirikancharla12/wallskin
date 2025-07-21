@@ -6,7 +6,8 @@
     "originalPrice": 6499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813157/Mask_group_3_d3bxgf.png",
     "category": "blinds",
-    "specialities": ["popular", "featured"]
+    "specialities": ["solar-screen", "featured", "popular"],
+    "url": "/blinds/solar-screen/solar-screen-zebra-blinds"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "originalPrice": 3499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813240/Mask_group_5_kn3fkw.png",
     "category": "blinds",
-    "specialities": ["popular"]
+    "specialities": ["roller", "popular"],
+    "url": "/blinds/roller/classic-white-roller-blinds"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "originalPrice": 4499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813223/Mask_group_6_chwnws.png",
     "category": "blinds",
-    "specialities": []
+    "specialities": ["vertical", "featured", "popular"],
+    "url": "/blinds/vertical/blackout-vertical-blinds"
   },
   {
     "id": 4,
@@ -33,15 +36,17 @@
     "originalPrice": 6499,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "blinds",
-    "specialities": []
+    "specialities": ["venetian", "wood", "popular"],
+    "url": "/blinds/venetian/oak-wood-venetian-blinds"
   },
-   {
+  {
     "id": 5,
-    "title": "Oak Wood Venetian Blinds",
-    "price": 4899,
-    "originalPrice": 6499,
+    "title": "Dual-Tone Faux Wood Blinds",
+    "price": 4599,
+    "originalPrice": 5899,
     "image": "https://res.cloudinary.com/dkwbq4dgw/image/upload/v1752813258/Mask_group_7_oa6wyb.png",
     "category": "blinds",
-    "specialities": []
+    "specialities": ["faux-wood", "trending", "bestseller"],
+    "url": "/blinds/faux-wood/dual-tone-faux-wood-blinds"
   }
 ]
