@@ -12,6 +12,7 @@ const dataMap: Record<string, any[]> = {
 
 export default function ProductDetail() {
   const { category, title } = useParams();
+  
 
   if (!category || !title || !dataMap[category]) {
     return (
