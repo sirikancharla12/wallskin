@@ -13,7 +13,6 @@ import ProductDetail from "./components/ProductDetails";
 import AllProducts from "./components/All";
 import AllSpecialCategories from "./components/SpecialCategory";
 import { CartProvider } from "./ui/CardContext";
-import BlindsCategory from "./components/blinds/hero";
 import BlindsPageComp from "./components/blinds/hero";
 
 export default function App() {
