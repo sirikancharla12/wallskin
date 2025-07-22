@@ -52,6 +52,10 @@
     background-color: #947c62;
   } 
 
+  .bg-fancy-dark {
+    background-color: #be8344;
+  } 
+
   .font-sk {
     font-family: 'sk-modernist', sans-serif;
   }

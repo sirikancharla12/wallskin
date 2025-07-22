@@ -43,9 +43,11 @@ export default function CurtainsCategory() {
   }, [])
 
   const filteredWallpapers = wallpapersData.filter((item) => {
-    const matchesCategory = item.specialities?.some(
-      (spec) => spec.toLowerCase().replace(/\s+/g, "-") === category?.toLowerCase(),
-    )
+     const matchesCategory =
+  category?.toLowerCase() === "all" ||
+  item.specialities?.some(
+    (spec) => spec.toLowerCase().replace(/\s+/g, "-") === category?.toLowerCase(),
+  )
     const matchesTag = tagFilter ? item.specialities?.includes(tagFilter) : true
     const matchesPrice = item.price >= minPrice && item.price <= maxPrice
     return matchesCategory && matchesTag && matchesPrice
@@ -110,12 +112,12 @@ export default function CurtainsCategory() {
         <div className="mb-6 lg:mb-0 mt-10">
             <div className="flex items-center gap-4 mb-3">
                   <Link
-    to="/wallpapers"
+    to="/curtains"
     className="text-2xl  hover:bg-soft-pink text-gray-800 font-medium px-3 py-1.5 rounded-md transition"
   >
   &lt;
   </Link>
-  <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">Wallpapers</h1>
+  <h1 className="text-2xl lg:text-3xl font-bold text-gray-900">Curtains</h1>
 
 </div>
 
@@ -123,12 +125,12 @@ export default function CurtainsCategory() {
           <div className="text-sm text-gray-600 mt-2 flex items-center">
             <span>Home</span>
             <span className="mx-2">/</span>
-            <span>Wallpapers</span>
+            <span>Curtains</span>
             <span className="mx-2">/</span>
             <span className="text-gray-900 font-medium capitalize">{category?.replace("-", " ")} Collection</span>
           </div>
           <p className="text-sm text-gray-500 mt-1">
-            {filteredWallpapers.length} wallpaper{filteredWallpapers.length !== 1 ? "s" : ""} found
+            {filteredWallpapers.length} Curtain{filteredWallpapers.length !== 1 ? "s" : ""} found
           </p>
         </div>
 
@@ -292,7 +294,7 @@ export default function CurtainsCategory() {
           <div className="text-gray-400 mb-4">
             <Filter className="h-12 w-12 mx-auto" />
           </div>
-          <h3 className="text-lg font-medium text-gray-900 mb-2">No wallpapers found</h3>
+          <h3 className="text-lg font-medium text-gray-900 mb-2">No curtains found</h3>
           <p className="text-gray-600 mb-4">Try adjusting your filters to see more results.</p>
           <button
             onClick={clearAllFilters}

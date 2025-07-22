@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/landingpage";
 import Layout from "./components/layout";
 import Wallpapers from "./pages/wallpapers";
-import BlindsPage from "./pages/blindspage";
 import WallpaperByCategory from "./components/wallpapers/WallPapersCategory";
 import SimpleLayout from "./components/SimpleLayout";
 import CurtainsPage from "./pages/curtains";
@@ -13,15 +12,21 @@ import Explore from "./components/Explore";
 import ProductDetail from "./components/ProductDetails";
 import AllProducts from "./components/All";
 import AllSpecialCategories from "./components/SpecialCategory";
+import { CartProvider } from "./ui/CardContext";
+import BlindsCategory from "./components/blinds/hero";
+import BlindsPageComp from "./components/blinds/hero";
 
 export default function App() {
   return (
+    <CartProvider>
+
     <Router>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<LandingPage />} />
           <Route path="/wallpapers" element={<Wallpapers />} />
-          <Route path="/blinds" element={<BlindsPage />} />
+          <Route path="/blinds" element={<BlindsPageComp />} />
+
           <Route path="/curtains" element={<CurtainsPage />} />
           <Route path="/explore" element={<Explore />} />
     <Route path="/category/:category" element={<AllSpecialCategories />} />
@@ -41,12 +46,15 @@ export default function App() {
 <Route path="/curtains" element={<SimpleLayout />}>
   <Route index element={<CurtainsPage />} />
   <Route path=":category" element={<CurtainsCategory />} />
-    <Route path="product/:title" element={<ProductDetail />} />
 </Route>
+
+
 
 
       </Routes>
 
     </Router>
+    </CartProvider>
+
   );
 }

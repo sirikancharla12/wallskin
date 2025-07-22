@@ -11,7 +11,7 @@ export default function HeroLandingPage() {
         className={`
           w-full
           bg-cover bg-center
-          flex items-start justify-start  // changed from justify-end
+          flex items-start justify-start  
           px-6 py-10 sm:py-20  
           aspect-square md:aspect-auto
           md:min-h-[calc(100vh-80px)]

@@ -15,9 +15,10 @@ export default function Layout(){
         <Faq />
         <OurClients/>
         <Testimonials/>
-        <Footer/> 
 
       </main>
+        <Footer/> 
+
         </>
     )
 }

@@ -6,10 +6,11 @@ export default function SimpleLayout() {
   return (
     <>
       <CustomNavbar />
-      <main className="mt-20">
+      <main className="mt-20 mb-10">
         <Outlet />
-        <Footer />
       </main>
+        <Footer />
+ 
     </>
   );
 }
